@@ -77,7 +77,6 @@ public class NumberUtilities {
         for(int i=start ; i< stop; i+= step){
             result += (int) Math.pow(i, exponent);
         }
-
         return result;
     }
 }
